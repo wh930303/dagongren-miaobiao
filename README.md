@@ -8,6 +8,8 @@ macOS 桌面悬浮窗小工具：把你的工资**按秒可视化**。
 
 > A macOS desktop widget that turns your salary into a per-second ticker: real-time earnings, countdown to clock-out, work-hours progress, payday countdown. Swift + AppKit, zero network access.
 
+> 🤖 **本项目由 [WorkBuddy](https://www.workbuddy.cn) 对话式生成**：从一句中文需求描述，到 Swift 源码、App 图标、通用二进制、DMG 安装包、GitHub 仓库与 Release，全程在对话内完成，没有一行手写代码。后续每一次修改（调窄窗口、修崩溃、加缩放、补 2027 年节假日）也都是对话驱动的。
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-dark.png">
   <img src="assets/screenshot.png" alt="打工人的秒表 · 桌面悬浮卡片" width="360">

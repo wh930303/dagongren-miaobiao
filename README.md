@@ -6,7 +6,10 @@ macOS 桌面悬浮窗小工具：把你的工资**按秒可视化**。
 
 > 灵感来自 Windows 开源项目「牛马脱敏器」，界面与交互为 macOS 原生重写（Swift + AppKit），代码独立。
 
-![截图](assets/screenshot.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-dark.png">
+  <img src="assets/screenshot.png" alt="打工人的秒表 · 桌面悬浮卡片" width="360">
+</picture>
 
 ## 功能
 

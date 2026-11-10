@@ -130,6 +130,10 @@ cd dagongren-miaobiao
 - 节假日数据硬编码，需要每年维护
 - 只在 macOS 13+ 测试过
 
+## 支持
+
+如果这个小工具帮你把「上班」变得好受了一点，点个 ⭐️ 就是最大的鼓励——也能让更多在找 Mac 版的人搜到它。
+
 ## License
 
 [MIT](LICENSE) © 打工人的秒表 contributors

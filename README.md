@@ -39,7 +39,8 @@ macOS 桌面悬浮窗小工具：把你的工资**按秒可视化**。
 需要 Xcode 命令行工具（`xcode-select --install`），macOS 13+：
 
 ```bash
-git clone <repo-url> && cd dagongren-miaobiao
+git clone https://github.com/wh930303/dagongren-miaobiao.git
+cd dagongren-miaobiao
 ./scripts/build.sh
 ```
 

@@ -4,3 +4,5 @@ dist/
 assets/AppIcon.iconset/
 assets/icon_master.png
 *.dmg
+docs/video/*.mov
+docs/video/*.mp4

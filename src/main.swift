@@ -449,7 +449,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let oldTop = panel.frame.origin.y + panel.frame.height
         let oldLeft = panel.frame.origin.x
 
-        let baseW: CGFloat = config.mini ? 280 : 300
+        let baseW: CGFloat = config.mini ? 384 : 300
         let baseH: CGFloat = config.mini ? 58 : 320
         let W = S(baseW), H = S(baseH)
 
@@ -462,11 +462,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if config.mini {
             let money = Label(text: "¥ 0.000", size: S(20), bold: true, color: p.money)
-            money.frame = NSRect(x: S(14), y: S(14), width: S(140), height: S(30))
+            money.frame = NSRect(x: S(14), y: S(14), width: S(150), height: S(30))
             money.autoresizingMask = []
             let cd = Label(text: "", size: S(11), color: p.status)
             cd.alignment = .right
-            cd.frame = NSRect(x: S(140), y: S(19), width: S(126), height: S(20))
+            cd.frame = NSRect(x: S(150), y: S(19), width: S(220), height: S(20))
             labels["mini_money"] = money
             labels["mini_cd"] = cd
             card.addSubview(money)

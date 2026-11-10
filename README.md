@@ -25,9 +25,10 @@ macOS 桌面悬浮窗小工具：把你的工资**按秒可视化**。
 
 ### 方式一：下载 DMG（推荐）
 
-1. 从 [Releases](../../releases) 下载 `打工人的秒表-v1.0.0.dmg`
-2. 打开后把 App 拖进「应用程序」
-3. 首次打开如果提示"无法验证开发者"：**右键点 App → 打开 → 再点打开**，或在终端执行：
+👉 **[下载 dagongren-miaobiao-v1.0.0.dmg](https://github.com/wh930303/dagongren-miaobiao/releases/latest/download/dagongren-miaobiao-v1.0.0.dmg)**（874 KB）
+
+1. 打开 dmg，把 App 拖进「应用程序」
+2. 首次打开如果提示"无法验证开发者"：**右键点 App → 打开 → 再点打开**，或在终端执行：
    ```bash
    xattr -d com.apple.quarantine /Applications/打工人的秒表.app
    ```

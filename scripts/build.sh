@@ -74,7 +74,7 @@ codesign --force --deep -s - "$APP" >/dev/null 2>&1 || echo "    (ad-hoc 签名�
 
 # ---------- 打包 DMG ----------
 echo "==> 打包 DMG"
-DMG="$DIST/$APP_NAME-v$VERSION.dmg"
+DMG="$DIST/dagongren-miaobiao-v$VERSION.dmg"
 rm -f "$DMG"
 hdiutil create -volname "$APP_NAME" -srcfolder "$APP" -ov -format UDZO "$DMG" >/dev/null
 
